@@ -1,0 +1,16 @@
+{
+  "local": {
+    "EnvironmentConfig": {
+      "api": "http://localhost:3000/",
+      "boxFileUploadApi": "https://upload.box.com/api/2.0/",
+      "whiteBoardUri" : "http://52.87.207.32:8080/login_conf/"
+    }
+  },
+  "production": {
+    "EnvironmentConfig": {
+      "api": "http://ec2-54-165-96-100.compute-1.amazonaws.com:3000/",
+      "boxFileUploadApi": "https://upload.box.com/api/2.0/",
+      "whiteBoardUri" : "http://52.87.207.32:8080/login_conf/"
+    }
+  }
+}
